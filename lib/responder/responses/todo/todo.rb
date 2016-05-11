@@ -14,9 +14,7 @@ module Responder
     end
 
     def contents
-      {
-       body: @info.contents
-      }
+      { body: @info.contents }
     end
   end
 end
