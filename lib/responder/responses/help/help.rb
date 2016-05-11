@@ -1,4 +1,6 @@
 # frozen_string_literal: true
+require_relative '../base'
+
 module Responder
   class Help < Base
     KEYWORD = 'help'
