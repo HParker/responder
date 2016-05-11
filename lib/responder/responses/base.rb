@@ -1,5 +1,5 @@
 require 'mote'
-
+require_relative '../processor'
 module Responder
   class Base
     include Mote::Helpers
